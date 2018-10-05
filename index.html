@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Postman</title>
+	<link href="semantic.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="custom.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="ui sidebar vertical left menu overlay visible" style="-webkit-transition-duration: 0.1s; overflow-y:scroll !important;">
+		<div class="item logo"><img src="img/logo.jpg"><img src="img/logo.jpg" style="display: none"></div>
+		<div class="ui accordion">
+			<div class="title item"> 
+				<span><i class="folder open outline icon"></i></span>Dashboard
+			</div>
+			<div class="content">
+				<a class="item" href="dashboard.html">Dashboard</a>
+				<a class="item" href="dashboard.html">Dashboard</a>
+				<a class="item" href="dashboard.html">Dashboard</a>
+				<a class="item" href="dashboard.html">Dashboard</a>
+				<a class="item" href="dashboard.html">Dashboard</a>
+			</div>
+			<div class="title item">
+				<span><i class="folder open outline icon"></i></span> Apps
+			</div>
+			<div class="content">
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+				<a class="item" href="inbox.html">Inbox</a>
+			</div>
+			<a class="item"><b>Components</b></a>
+			<div class="title item">
+				<span><i class="folder open outline icon"></i></span> More
+			</div>
+			<div class="content">
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+				<a class="item" href="inbox.html">Mail</a>
+			</div>
+		</div>
+	</div>
+	<div class="pusher">
+		<div class="ui menu asd borderless" style="border-radius: 0!important; border: 0; margin-left: 260px; -webkit-transition-duration: 0.1s;">
+			<a class="item openbtn"></a> <a class="item">Messages</a>
+			<div class="right menu">
+				<div class="ui dropdown item">
+					Language <i class="dropdown icon"></i>
+					<div class="menu">
+						<a class="item">English</a>
+						<a class="item">Russian</a>
+						<a class="item">Spanish</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ui primary button">
+						Sign Up
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+	<script src="semantic.js"></script> 
+	<script type="text/javascript">
+	            $(".openbtn").on("click", function() {
+	              $(".ui.sidebar").toggleClass("very thin icon");
+	              $(".asd").toggleClass("marginlefting");
+	              $(".sidebar z").toggleClass("displaynone");
+	              $(".ui.accordion").toggleClass("displaynone");
+	              $(".ui.dropdown.item").toggleClass("displayblock");
+
+	              $(".logo").find('img').toggle();
+
+	            })
+	            $(".ui.dropdown").dropdown({
+	              allowCategorySelection: true,
+	              transition: "fade up",
+	              context: 'sidebar',
+	              on: "hover"
+	            });
+
+	            $('.ui.accordion').accordion({
+	              selector: {
+
+	              }
+	            });
+	</script>
+
+</body>
+</html>
